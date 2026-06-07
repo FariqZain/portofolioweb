@@ -4,6 +4,8 @@
 
 ## Deskripsi
 Proyek ini adalah website portofolio web yang menampilkan semua program dan proyek yang dibuat untuk menunjukkan kemampuan dalam pengembangan web. Website ini dirancang untuk menampilkan halaman depan, proyek, tentang saya, kontak, dan demo setiap aplikasi web.
+Contoh Tampilan:
+muhammadfariqzain.it.student.pens.ac.id
 
 ## Isi Portofolio
 - Halaman beranda dengan ringkasan kemampuan dan layanan
