@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cover - Tree of Savior Style</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#F6EFE5] min-h-screen flex flex-col items-center justify-center relative overflow-hidden font-sans antialiased page-entry p-4">
+
+    <div class="absolute inset-0 opacity-[0.25] pointer-events-none bg-diamond-pattern"></div>
+
+    <div id="transition-overlay" class="fixed inset-0 bg-[#F6EFE5] z-50 pointer-events-none opacity-0 transition-opacity duration-600 ease-in-out"></div>
+
+    <div class="absolute top-4 left-4 sm:top-8 sm:left-8 flex items-center bg-[#FCFAF5] pl-2 pr-5 py-1.5 rounded-full border border-[#E8DCCB] shadow-sm z-30 animate-fade-down">
+        <div class="w-7 h-7 rounded-full bg-[#EAA75D] text-white flex items-center justify-center text-xs font-bold font-mono shadow-inner mr-2.5">
+            x
+        </div>
+        <span class="text-[#7A6046] font-bold text-xs tracking-wider">FariqZain</span>
+    </div>
+
+    <div class="relative z-10 perspective-1000 animate-scale-up my-auto">
+        <a href="../page2_hub/work.html" id="portfolio-book" class="relative block w-[280px] h-[310px] sm:w-[320px] sm:h-[350px] transform rotate-[-4deg] hover:rotate-0 hover:scale-105 transition-all duration-500 ease-out cursor-pointer group">
+            
+            <div class="absolute inset-[-10px] bg-[#FAF8F5] rounded-[2.5rem] opacity-90 shadow-lg transform rotate-[8deg] scale-95 group-hover:rotate-[4deg] transition-transform duration-500"></div>
+            
+            <div class="relative w-full h-full bg-[#D09E71] rounded-2xl p-6 flex flex-col items-center justify-center border-2 border-[#C08F63] shadow-md overflow-hidden">
+                
+                <div class="absolute top-20 sm:top-24 -left-3 w-5 h-14 bg-gradient-to-r from-[#EEDAA2] via-[#E2B957] to-[#D09F36] rounded-full border border-[#C29835] shadow-md transform -rotate-12 z-20">
+                    <div class="absolute inset-1 border-r border-[#FFF5D1] rounded-full opacity-40"></div>
+                </div>
+                
+                <div class="w-full text-center flex flex-col items-center justify-center select-none transform -rotate-2 group-hover:rotate-0 transition-transform duration-500">
+                    <div class="flex items-center justify-center space-x-2 w-full">
+                        <span class="text-[#FDFBF9]/40 text-sm font-serif">❧</span>
+                        <span class="h-[1px] w-6 bg-[#FDFBF9]/30"></span>
+                        
+                        <h1 class="text-2xl sm:text-3xl font-serif font-black text-white tracking-wide drop-shadow-[0_1px_2px_rgba(122,96,70,0.3)]">
+                            Portfolio
+                        </h1>
+                        
+                        <span class="h-[1px] w-6 bg-[#FDFBF9]/30"></span>
+                        <span class="text-[#FDFBF9]/40 text-sm font-serif">☙</span>
+                    </div>
+                    
+                    <div class="w-24 sm:w-32 h-[1px] bg-gradient-to-r from-transparent via-[#FDFBF9]/40 to-transparent mt-1"></div>
+                </div>
+
+            </div>
+        </a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
